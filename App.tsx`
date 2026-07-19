@@ -38,3 +38,11 @@ export default function App() {
     </Routes>
   )
 }
+function App() {
+  return (
+    <div style={{textAlign: 'center', padding: '50px', fontFamily: 'sans-serif'}}>
+      <h1>Welcome to Mingle 🔥</h1>
+      <p>Your app is finally live on Vercel!</p>
+    </div>
+  )
+}
