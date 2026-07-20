@@ -58,7 +58,8 @@ export default function App() {
             marginTop: "20px",
           }}
         >
-         A modern social platform built for meaningful conversations, trusted communities, and the Pi ecosystem.
+          A modern social platform built for meaningful conversations,
+          trusted communities, and the Pi ecosystem.
         </p>
 
         <button
@@ -75,6 +76,59 @@ export default function App() {
         >
           Join the Community
         </button>
+      </div>
+
+      {/* Features Section */}
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          gap: "20px",
+          flexWrap: "wrap",
+          padding: "60px 20px",
+        }}
+      >
+        <div
+          style={{
+            width: "280px",
+            padding: "25px",
+            borderRadius: "15px",
+            background: "white",
+            boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+            textAlign: "center",
+          }}
+        >
+          <h2>🤝 Connect</h2>
+          <p>Find friends, build relationships, and grow your network.</p>
+        </div>
+
+        <div
+          style={{
+            width: "280px",
+            padding: "25px",
+            borderRadius: "15px",
+            background: "white",
+            boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+            textAlign: "center",
+          }}
+        >
+          <h2>💬 Communities</h2>
+          <p>Join discussions, groups, and meaningful conversations.</p>
+        </div>
+
+        <div
+          style={{
+            width: "280px",
+            padding: "25px",
+            borderRadius: "15px",
+            background: "white",
+            boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+            textAlign: "center",
+          }}
+        >
+          <h2>🛒 Marketplace</h2>
+          <p>Buy, sell, and trade using the power of the Pi ecosystem.</p>
+        </div>
       </div>
     </div>
   );
