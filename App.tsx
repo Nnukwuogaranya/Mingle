@@ -48,7 +48,7 @@ export default function App() {
             color: "#6C4CF1",
           }}
         >
-          Welcome to Mingle
+          Welcome to Mingle — Where Connections Become Community
         </h1>
 
         <p
@@ -58,7 +58,7 @@ export default function App() {
             marginTop: "20px",
           }}
         >
-          Connect. Share. Grow Together.
+         A modern social platform built for meaningful conversations, trusted communities, and the Pi ecosystem.
         </p>
 
         <button
